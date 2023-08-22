@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import data, { ExperiencesType } from "./data";
-import ExperienceDetail from "./ExperienceDetail";
 import { motion } from "framer-motion";
+import ExperienceDetail from "./ExperienceDetail";
 
 const Experience = () => {
   const [experiences, setExperiences] = useState<ExperiencesType[]>([]);

@@ -5,6 +5,7 @@ import {
   AiOutlineDownload,
   AiOutlineMail,
 } from "react-icons/ai";
+import resumePdf from "/file/Clinton_Orbana.pdf";
 
 const About = () => {
   return (
@@ -25,7 +26,10 @@ const About = () => {
           </span>
         </p>
         <div className="mb-10 flex flex-col items-center gap-3 lg:flex-row">
-          <button className="flex items-center justify-center gap-2 rounded-full bg-gray-950 px-5 py-2 text-sm font-bold text-gray-50 transition-all hover:scale-[1.1] hover:opacity-50">
+          <button
+            onClick={() => window.open(resumePdf)}
+            className="flex items-center justify-center gap-2 rounded-full bg-gray-950 px-5 py-2 text-sm font-bold text-gray-50 transition-all hover:scale-[1.1] hover:opacity-50"
+          >
             Download Resume{" "}
             <i className="text-lg">
               <AiOutlineDownload />

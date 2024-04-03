@@ -20,7 +20,7 @@ const data: ExperiencesType[] = [
   {
     job_title: "Web Developer Intern",
     company: "Five Freedom Partners Inc.",
-    date: "Sep - Nov 2023",
+    date: "Sep — Nov 2023",
     description:
       "Collaborated with the development team to enhance and debug the company's administrative and business websites. Responsible for translating design specifications into code, adding new features and improve functionality.",
     tools: ["PHP", "MySQL", "JQuery", "JavaScript", "HTML", "CSS"],

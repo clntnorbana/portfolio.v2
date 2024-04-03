@@ -19,7 +19,7 @@ const data: ExperiencesType[] = [
   },
   {
     job_title: "Web Developer Intern",
-    company: "Five Freedom Partners Inc.",
+    company: "Five Freedoms Partners Inc.",
     date: "Sep — Nov 2023",
     description:
       "Collaborated with the development team to enhance and debug the company's administrative and business websites. Responsible for translating design specifications into code, adding new features and improve functionality.",

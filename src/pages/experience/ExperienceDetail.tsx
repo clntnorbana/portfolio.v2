@@ -6,10 +6,11 @@ type ExperienceDetailProps = {
 };
 
 const ExperienceDetail = (props: ExperienceDetailProps) => {
-  const { job_title, company, date, description, tools } = props.experience;
+  const { job_title, company, date, description, tools, url } =
+    props.experience;
 
   return (
-    <a href="https://software.pixel8.ph/" target="__blank">
+    <a href={url} target="__blank" className="mb-5">
       <div className="rounded-md transition-all md:p-5 md:hover:bg-white/25 md:hover:shadow-md md:dark:hover:bg-black/10 xl:grid xl:grid-cols-3">
         <p className="mb-2 opacity-[.5] xl:mb-0 xl:mt-1 xl:text-center">
           {date}

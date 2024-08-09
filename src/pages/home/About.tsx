@@ -14,16 +14,15 @@ const About = () => {
         <div className="mb-3 w-[6rem] overflow-hidden rounded-full border-[.23rem] border-gray-50">
           <img loading="lazy" src="./profile_pic.jpg" alt="clinton orbaña" />
         </div>
+
         <p className="mb-5 text-center text-lg">
           <span className="font-semibold">
             Hello, I'm <span className="text-blue-800">Clinton Orbaña</span>.
           </span>{" "}
-          I am an <span className="font-semibold">IT student</span> and a{" "}
-          <span className="font-semibold">self-taught web developer.</span> I
-          enjoy building sites & apps. My focus is{" "}
-          <span className="font-semibold underline">
-            Front-End Development.
-          </span>
+          I am an <span className="font-semibold">IT graduate</span> and a{" "}
+          <span className="font-semibold">self-taught developer.</span> I enjoy
+          building sites & apps. My focus is{" "}
+          <span className="font-semibold underline">Web Development.</span>
         </p>
         <div className="mb-10 flex flex-col items-center gap-3 lg:flex-row">
           <button
@@ -77,16 +76,15 @@ const About = () => {
         <p className="text-justify text-gray-600 dark:text-gray-300">
           Web development caught my interest when I created a simple web page
           using Wix and Wordpress when I was on my first year in college, and
-          decided to pursue my passion for programming. I have spent plenty of
-          time watching tutorials, reading documentation, writing codes and
-          building personal projects. My favorite part of programming is being
-          able to make the computer do what I want. My core stack is{" "}
+          decided to pursue my passion for programming. My favorite part of
+          programming is being able to make the computer do what I want. My core
+          stack is{" "}
           <span className="font-semibold text-gray-900 dark:text-gray-50">
             HTML, CSS, JavaScript and React.
           </span>{" "}
           I am also familiar with{" "}
           {/* <span className="font-semibold text-gray-900 dark:text-gray-50"> */}
-          Typescript, Nodejs, MongoDB and REST API.
+          Typescript, Nodejs, MongoDB, PHP, MySQL and REST API.
           {/* </span> */}
         </p>
       </div>

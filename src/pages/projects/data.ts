@@ -15,6 +15,28 @@ export type ProjectsType = {
 
 const data: ProjectsType[] = [
   {
+    title: "Barangay Malamig Certificate Request Services System",
+    live_url: "",
+    github_url: {
+      frontend_url: "https://github.com/clntnorbana/frontend_capstone",
+      backend_url: "https://github.com/clntnorbana/backend_capstone",
+    },
+    stacks: [
+      "react",
+      "typescript",
+      "tailwindcss",
+      "redux toolkit",
+      "node",
+      "express",
+      "twilio",
+      "cloudinary",
+      "mysql",
+    ],
+    description:
+      "Our capstone project focused on digitalizing the process for requesting and releasing certificates, such as barangay clearance and indigency. This initiative aimed to streamline operations, leading to faster transactions and improved efficiency for the Barangay Malamig Office.",
+    images: [`${image_path}/capstone.png`, `${image_path}/capstone.png`],
+  },
+  {
     title: "T-Shirt Store",
     live_url: "https://t-shirt-store-phi.vercel.app/",
     github_url: {

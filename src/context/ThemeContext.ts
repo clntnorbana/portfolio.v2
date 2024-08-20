@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const initialState = {
-  currentTheme: "light",
+  currentTheme: "dark",
   changeCurrentTheme: (_newTheme: "light" | "dark") => {},
 };
 

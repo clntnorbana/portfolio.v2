@@ -16,7 +16,7 @@ export type ProjectsType = {
 const data: ProjectsType[] = [
   {
     title: "Barangay Malamig Certificate Request Services System",
-    live_url: "",
+    live_url: "https://barangaymalamigrequestcertificate.online/",
     github_url: {
       frontend_url: "https://github.com/clntnorbana/frontend_capstone",
       backend_url: "https://github.com/clntnorbana/backend_capstone",

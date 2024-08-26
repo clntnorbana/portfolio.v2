@@ -8,6 +8,8 @@ import Projects from "./pages/projects/Projects";
 import Experience from "./pages/experience/Experience";
 import Footer from "./components/Footer";
 
+// hello world
+
 const App = () => {
   return (
     <ThemeContextProvider>

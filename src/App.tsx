@@ -8,7 +8,7 @@ import Projects from "./pages/projects/Projects";
 import Experience from "./pages/experience/Experience";
 import Footer from "./components/Footer";
 
-// hello world
+// Hello Bhea, nomu sarangahe~ <3
 
 const App = () => {
   return (

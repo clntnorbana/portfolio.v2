@@ -128,6 +128,17 @@ const data: ProjectsType[] = [
       "The project that tested my logical skills and problem solving.",
     images: [`${image_path}/quiz.jpg`, `${image_path}/quiz_2.jpg`],
   },
+  {
+    title: "Calculator",
+    live_url: "https://calculator-ashen-alpha.vercel.app/",
+    github_url: {
+      main_url: "https://github.com/clntnorbana/Calculator",
+    },
+    stacks: ["html", "css", "javascript"],
+    description:
+      "Building this calculator project gave me a solid understanding of CSS Grid.",
+    images: [`${image_path}/calculator.png`, `${image_path}/calculator.png`],
+  },
 ];
 
 export default data;

@@ -9,15 +9,16 @@ const ProjectDetail = (props: ProjectDetailProps) => {
 
   return (
     <div className="relative overflow-hidden opacity-[.8] transition-all hover:opacity-[1]">
-      <div className="mb-2">
-        <p className="text-lg font-bold">{title}</p>
-      </div>
       {images && images.length > 0 && (
         <a href={live_url} target="__blank">
           <img className="w-full rounded-md" src={images[0]} alt={title} />
         </a>
       )}
-      <div className="p-2">
+      <div className="mb-1 mt-2">
+        <p className="text-lg font-bold">{title}</p>
+      </div>
+
+      <div className="px-1">
         <div className="flex flex-wrap">
           {stacks.map((stack, index) => {
             return (

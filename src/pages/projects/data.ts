@@ -118,6 +118,16 @@ const data: ProjectsType[] = [
     images: [`${image_path}/todolist.jpg`, `${image_path}/todolist_2.jpg`],
   },
   {
+    title: "Personality Test",
+    live_url: "https://personality-test-nwa6.vercel.app/",
+    github_url: {
+      main_url: "https://github.com/clntnorbana/personality-test",
+    },
+    stacks: ["html", "css", "typescript"],
+    description:
+      "When I applied to a software company, they gave me the task of creating a simple personality test software. I used Node.js to do that, and it was running in the console. I then decided to make it more lively by creating a simple static website using typsecript this time.",
+  },
+  {
     title: "Quiz App",
     live_url: "https://typescript-quiz-app-gamma.vercel.app/",
     github_url: {

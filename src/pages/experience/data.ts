@@ -9,9 +9,17 @@ export type ExperiencesType = {
 
 const data: ExperiencesType[] = [
   {
+    job_title: "Frontend Developer",
+    company: "DigiPlus Interactive Corp.",
+    date: "Sep 2024 - present",
+    description: "No description yet.",
+    tools: ["VueJS"],
+    url: "https://digiplus.com.ph/",
+  },
+  {
     job_title: "Web Developer Intern",
     company: "Five Freedoms Partners Inc.",
-    date: "Sep — Nov 2023",
+    date: "SEP — NOV 2023",
     description:
       "Collaborated with the development team to enhance and debug the company's administrative and business websites. Responsible for translating design specifications into code, adding new features and improve functionality.",
     tools: ["PHP", "MySQL", "JQuery", "JavaScript", "HTML", "CSS"],

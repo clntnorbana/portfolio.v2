@@ -11,7 +11,7 @@ const data: ExperiencesType[] = [
   {
     job_title: "Frontend Developer",
     company: "DigiPlus Interactive Corp.",
-    date: "Sep 2024 - present",
+    date: "SEP 2024 — PRESENT",
     description: "No description yet.",
     tools: ["VueJS"],
     url: "https://digiplus.com.ph/",

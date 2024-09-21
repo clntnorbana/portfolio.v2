@@ -115,7 +115,7 @@ const data: ProjectsType[] = [
     },
     stacks: ["typescript", "react", "css"],
     description: "My first project where I used typescript.",
-    images: [`${image_path}/todolist.jpg`, `${image_path}/todolist_2.jpg`],
+    images: [`${image_path}/todolist.png`, `${image_path}/todolist.png`],
   },
   {
     title: "Personality Test",

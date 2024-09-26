@@ -10,7 +10,7 @@ export type ExperiencesType = {
 const data: ExperiencesType[] = [
   {
     job_title: "Frontend Developer",
-    company: "DigiPlus Interactive Corp.",
+    company: "AB Leisure Exponent Inc.",
     date: "SEP 2024 — PRESENT",
     description: "No description yet.",
     tools: ["VueJS"],

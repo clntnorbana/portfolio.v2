@@ -13,7 +13,15 @@ const data: ExperiencesType[] = [
     company: "Digiplus",
     date: "SEP 2024 — PRESENT",
     description: "No description yet.",
-    tools: ["VueJS"],
+    tools: [
+      "Vue",
+      "Vue Router",
+      "TypeScript",
+      "Element UI",
+      "VXE",
+      "Pinia State Management",
+      "REST API",
+    ],
     url: "https://digiplus.com.ph/",
   },
   {

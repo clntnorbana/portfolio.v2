@@ -125,7 +125,7 @@ const data: ProjectsType[] = [
     },
     stacks: ["html", "css", "typescript"],
     description:
-      "When I applied to a software company, they gave me the task of creating a simple personality test software. I used Node.js to do that, and it was running in the console. I then decided to make it more lively by creating a simple static website using typsecript this time.",
+      "When I applied to a software company, I was given a task to create a simple personality test software. I initially built it using Node.js, running entirely in the console. To make it more engaging, I later recreated it as a simple static website using TypeScript.",
     images: [
       `${image_path}/personality_test_img.png`,
       `${image_path}/personality_test_img.png`,

@@ -74,17 +74,17 @@ const About = () => {
 
       <div>
         <p className="text-justify text-gray-600 dark:text-gray-300">
-          Web development caught my interest when I created a simple web page
-          using Wix and Wordpress when I was on my first year in college, and
-          decided to pursue my passion for programming. My favorite part of
-          programming is being able to make the computer do what I want. My core
-          stack is{" "}
+          My interest in web development began during my first year in college
+          when I created simple web pages using Wix and WordPress. That
+          experience sparked my passion for programming, and I decided to pursue
+          it more seriously. My favorite part of programming is being able to
+          make the computer do what I want. My core stack includes{" "}
           <span className="font-semibold text-gray-900 dark:text-gray-50">
-            HTML, CSS, JavaScript and React.
+            HTML, CSS, JavaScript, TypeScript and Vue.
           </span>{" "}
           I am also familiar with{" "}
           {/* <span className="font-semibold text-gray-900 dark:text-gray-50"> */}
-          Typescript, Nodejs, MongoDB, PHP, MySQL and REST API.
+          React, Nodejs, MongoDB, PHP, MySQL and REST API.
           {/* </span> */}
         </p>
       </div>

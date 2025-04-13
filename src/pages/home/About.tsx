@@ -5,7 +5,7 @@ import {
   AiOutlineDownload,
   AiOutlineMail,
 } from "react-icons/ai";
-import resumePdf from "/file/Clinton_Orbana.pdf";
+import resumePdf from "/file/Clinton_Orbana_new.pdf";
 
 const About = () => {
   return (

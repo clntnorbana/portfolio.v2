@@ -24,7 +24,7 @@ const ProjectDetail = (props: ProjectDetailProps) => {
             return (
               <p
                 key={index}
-                className="my-1 mr-2 rounded-xl bg-gray-50 px-2 text-sm text-gray-900"
+                className="my-1 mr-2 rounded-xl text-gray-50 bg-slate-900 dark:text-gray-900 dark:bg-gray-50 px-2 text-sm"
               >
                 {stack}
               </p>

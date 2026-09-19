@@ -27,7 +27,7 @@ const ExperienceDetail = (props: ExperienceDetailProps) => {
             {tools.map((tool, index) => {
               return (
                 <p
-                  className="text rounded-full bg-gray-50 px-2 py-1 dark:bg-gray-700"
+                  className="text-sm rounded-full bg-gray-50 px-2 py-1 text-gray-50 bg-slate-900 dark:text-gray-900 dark:bg-gray-50"
                   key={index}
                 >
                   {tool}

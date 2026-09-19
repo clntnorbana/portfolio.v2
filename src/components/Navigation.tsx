@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navigation = () => {
   const links = [
@@ -21,8 +21,16 @@ const Navigation = () => {
   const [activeMobileMenu, setActiveMobileMenu] = useState<boolean>(false);
 
   const handleToggleMobileMenu = () => {
-    setActiveMobileMenu(!activeMobileMenu);
+    setActiveMobileMenu((prev) => !prev);
   };
+
+  useEffect(() => {
+    document.body.classList.toggle('overflow-hidden', activeMobileMenu)
+
+    return () => {
+      document.body.classList.remove('overflow-hidden')
+    }
+  }, [activeMobileMenu])
 
   return (
     <>
@@ -39,7 +47,7 @@ const Navigation = () => {
             : "left-[-150%]"
         } fixed z-10 flex h-screen w-[100%] items-center justify-center gap-5 p-[2rem] font-semibold text-gray-900 transition-all dark:text-gray-50 md:w-[50%] lg:left-0 lg:w-[20%] lg:bg-transparent`}
       >
-        <ul className="flex flex-col gap-3 uppercase">
+        <ul className="flex flex-col gap-3 uppercase absolute left-[25%]">
           {links.map((link, index) => {
             return (
               <NavLink
@@ -51,9 +59,9 @@ const Navigation = () => {
                     ? `${
                         activeMobileMenu
                           ? ""
-                          : "fixed top-[35%] text-4xl transition-all duration-500"
+                          : "text-5xl transition-all duration-300"
                       } opacity-100`
-                    : "opacity-50 hover:opacity-70"
+                    : "opacity-50 hover:opacity-70 transition-all duration-300"
                 }
               >
                 <span>{link.name}</span>
